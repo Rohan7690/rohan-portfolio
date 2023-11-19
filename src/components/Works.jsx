@@ -45,7 +45,7 @@ const ProjectCard = ({index,name,description
             #{tag.name}
           </p>
         ))}
-      </div>
+      </div> 
       <div className="flex justify-center mt-3">
       <button onClick={()=>window.open(live_link,'_blank')} type="button" class=" text-blue-500 hover:text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
           Live Link
