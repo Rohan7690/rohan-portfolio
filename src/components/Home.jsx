@@ -24,9 +24,9 @@ const Home = () => {
       <Tech />
       <Works />
       {/* <Feedbacks /> */}
-      <div className='relative z-0 '>
+      <div className='relative z-0 bg-hero-pattern '>
         <Contact />
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
       </div>
 
    </div>
