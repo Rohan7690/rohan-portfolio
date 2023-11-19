@@ -1,30 +1,29 @@
+
 import {
     mobile,
     backend,
     creator,
     web,
     javascript,
-    typescript,
     html,
+    python,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    rightlabs,
+    rohanPortfolio,
+    bootstrap,
+    postmanapi,
+    chakara,
+    letschat,
+    ghumantu,
+    todolist,
   } from "../assets";
-  
+// import bootstrap from '../assets';
+
   export const navLinks = [
     {
       id: "about",
@@ -73,16 +72,25 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "git",
+      icon: git,
+    },
+
+    {
+      name: "Postman Api",
+      icon: postmanapi,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Chakara UI",
+      icon: chakara,
     },
     {
       name: "Tailwind CSS",
@@ -96,29 +104,18 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
+    
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "python",
+      icon: python,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend Developer Intern",
+      company_name: "RightLabs",
+      icon: rightlabs,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -127,46 +124,7 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -198,67 +156,82 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Lets Chat Web App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Real-time chat web application offering one-on-one and group chat experiences . With user authentication to enhance data security, including user registration and login. Created API which can manage fronted requests and provide data from backend.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "chakara UI",
           color: "pink-text-gradient",
         },
+        {
+          name: "express js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Socket.io",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: letschat,
+      source_code_link: "https://github.com/Rohan7690/LetsChat-Deploy",
+      live_link:'https://letschat-bg1b.onrender.com/',
     },
     {
-      name: "Job IT",
+      name: "Ghumantu Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed the website's UI using Chakra UI framework, ensuring an intuitive user experience.Ensured full responsiveness across various devices and screen sizes for broad accessibility.Utilized Git/GitHub for version control, allowing for efficient code management and collaboratio",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "chakara UI",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "fade aos",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: ghumantu,
+      source_code_link: "https://github.com/Rohan7690/ghumantu-landing",
+      live_link:'https://ghumantu-landing.vercel.app/',
     },
     {
-      name: "Trip Guide",
+      name: "Rohan Portfolio Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Created my 3d portfolio website using ThreeJS : a powerful 3D graphics library and React Three Fiber : a popular library for creating 3D graphics with ThreeJS in React",
       tags: [
         {
-          name: "nextjs",
+          name: "threejs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwind css",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "react",
           color: "pink-text-gradient",
         },
+        {
+          name: "framer",
+          color: "green-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: rohanPortfolio,
+      source_code_link: "https://github.com/Rohan7690/rohan-portfolio",
+      live_link:'https://rohan-portfolio-six.vercel.app/',
     },
   ];
   

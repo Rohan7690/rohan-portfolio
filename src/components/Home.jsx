@@ -6,7 +6,8 @@ import Experience from './Experience'
 import Feedbacks from './Feedbacks'
 import Works from './Works'
 import Contact from './Contact'
-import StarsCanvas from './canvas/Stars'
+import StarsCanvas from './canvas/starsNew'
+
 
 
 
@@ -14,7 +15,7 @@ const Home = () => {
   return (
     <>
     <div className="relative z-0 bg-primary">
-      <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+      <div className="">
         <Navbar />
         <Hero />
       </div> 
@@ -22,8 +23,8 @@ const Home = () => {
       <Experience />
       <Tech />
       <Works />
-      <Feedbacks />
-      <div className='relative z-0'>
+      {/* <Feedbacks /> */}
+      <div className='relative z-0 '>
         <Contact />
         <StarsCanvas />
       </div>
