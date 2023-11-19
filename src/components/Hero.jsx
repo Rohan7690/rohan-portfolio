@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion';
 import { styles } from '../styles';
-import {ComputersCanvas, EarthCanvas, StarsCanvas} from './canvas';
+import { EarthCanvas, StarsCanvas} from './canvas';
 
 import { slideIn } from '../utils/motion';
 

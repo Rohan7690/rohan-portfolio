@@ -3,12 +3,9 @@ import Hero from './Hero'
 import About from './About'
 import Tech from './Tech'
 import Experience from './Experience'
-import Feedbacks from './Feedbacks'
+
 import Works from './Works'
 import Contact from './Contact'
-import StarsCanvas from './canvas/starsNew'
-
-
 
 
 const Home = () => {

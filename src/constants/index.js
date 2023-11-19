@@ -19,8 +19,7 @@ import {
     postmanapi,
     chakara,
     letschat,
-    ghumantu,
-    todolist,
+    ghumantu
   } from "../assets";
 // import bootstrap from '../assets';
 
