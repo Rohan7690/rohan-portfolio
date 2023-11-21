@@ -3,7 +3,7 @@ import Hero from './Hero'
 import About from './About'
 import Tech from './Tech'
 import Experience from './Experience'
-
+import { StarsCanvas } from './canvas'
 import Works from './Works'
 import Contact from './Contact'
 
@@ -21,9 +21,9 @@ const Home = () => {
       <Tech />
       <Works />
       {/* <Feedbacks /> */}
-      <div className='relative z-0 bg-hero-pattern '>
+      <div className='relative z-0 '>
         <Contact />
-        {/* <StarsCanvas /> */}
+        <StarsCanvas />
       </div>
 
    </div>

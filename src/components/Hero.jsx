@@ -1,12 +1,12 @@
 import {motion} from 'framer-motion';
 import { styles } from '../styles';
-import { EarthCanvas, StarsCanvas} from './canvas';
-
-import { slideIn } from '../utils/motion';
+// import { EarthCanvas, StarsCanvas} from './canvas';
+// import rohanHero from '../assets/rkt-logo/rohanHero.png';
+// import { slideIn } from '../utils/motion';
 
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto'>
+    <section className='relative bg-hero-pattern  bg-cover bg-no-repeat bg-center w-full h-screen mx-auto'>
     
       <div className={`${styles.paddingX} absolute inset-0 
       top-[120px] max-w-7xl mx-auto
@@ -25,18 +25,12 @@ const Hero = () => {
         </p>
       </div>
       </div>
-      <motion.div
-      variants={slideIn('right','tween',0.2,1)}
-      className="xl:flex-1 xxs:w-[95%] md:h-[100%] h-[350px]"
-      >
-        <EarthCanvas />
-      </motion.div>
-      {/* <div className="">
+      <div className="z-10">
         
-        
-      </div> */}
+        {/* <img alt='rohanImg' src={rohanHero} /> */}
       </div>
-      <StarsCanvas/>
+      </div>
+      
       <div className="absolute xxs:bottom-10 bottom-32
       w-full flex justify-center items-center">
         <a href="#about">
