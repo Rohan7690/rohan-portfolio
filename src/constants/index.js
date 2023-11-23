@@ -233,5 +233,64 @@ import {
       live_link:'https://rohan-portfolio-six.vercel.app/',
     },
   ];
+
+  const progress = [
+    {
+      name:'HTML',
+      number:'90%'
+    },
+    {
+      name:'CSS',
+      number:'90%'
+    },
+    {
+      name:'JavaScript',
+      number:'80%'
+    },
+    {
+      name:'ReactJS',
+      number:'80%'
+    },
+    {
+      name:'Postman API',
+      number:'70%'
+    },
+    {
+      name:'Tailwind Css',
+      number:'80%'
+    },
+    {
+      name:'Bootstrap',
+      number:'90%'
+    },
+    {
+      name:'Chakara UI',
+      number:'90%'
+    },
+    {
+      name:'Git/Github',
+      number:'80%'
+    },
+    {
+      name:'NodeJs',
+      number:'70%'
+    },
+    {
+      name:'ExpressJs',
+      number:'70%'
+    },
+    {
+      name:'MongoDB',
+      number:'80%'
+    },
+    {
+      name:'Python',
+      number:'60%'
+    },
+    {
+      name:'C++',
+      number:'80%'
+    }
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects,progress };
