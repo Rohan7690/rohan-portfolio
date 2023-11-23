@@ -86,3 +86,19 @@ export const textVariant = (delay) => {
       },
     };
   };
+
+
+  export const continuousFloatingAnimation = (range, speed) => {
+    return {
+      animate: {
+        y: [range, -range, range], // Use an array to define a continuous loop
+        transition: {
+          type: "linear",
+          duration: speed / 1000,
+          loop: Infinity, // Causes the animation to loop indefinitely
+        },
+      },
+    };
+  };
+
+  
