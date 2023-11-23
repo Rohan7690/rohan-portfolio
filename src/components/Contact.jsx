@@ -5,9 +5,6 @@ import { styles } from "../styles"
 import {EarthCanvas} from './canvas'
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
-//template_9239e3q
-//service_b0vea55
-//kQ8uCJhiXFUj6PN3n
 
 
 const Contact = () => {
@@ -30,14 +27,14 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      'service_b0vea55','template_9239e3q',
+      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
       {
         from_name:form.name,
         to_name:'Rohan',
         from_email:form.email,
         to_email:'rohan7690kt@gmail.com',
         message:form.message,
-      },'kQ8uCJhiXFUj6PN3n')
+      },import.meta.env.VITE_APP_EMAILJS_USER_ID)
       .then(()=>{
         setLoading(false);
         setForm({
