@@ -32,7 +32,9 @@ const Hero = () => {
         <i onClick={()=>{
           window.open("https://www.linkedin.com/in/rohan-kumar-tailor-1ba064220");
         }} className="border-2 border-cyan-300 cursor-pointer text-cyan-300 text-[30px] hover:bg-cyan-300  hover:text-black p-2 rounded-full fa-brands fa-linkedin"></i>
-        <i className="border-2 border-cyan-300 cursor-pointer text-cyan-300 text-[30px] hover:bg-cyan-300  hover:text-black p-2 rounded-full fa-brands fa-github"></i>
+        <i onClick={()=>{
+          window.open("https://github.com/Rohan7690");
+        }} className="border-2 border-cyan-300 cursor-pointer text-cyan-300 text-[30px] hover:bg-cyan-300  hover:text-black p-2 rounded-full fa-brands fa-github"></i>
         <i onClick={()=>{
           window.open("https://www.instagram.com/rohan_8320/");
         }} className="border-2 border-cyan-300 cursor-pointer text-cyan-300 text-[30px] hover:bg-cyan-300  hover:text-black p-2 rounded-full fa-brands fa-instagram"/>
