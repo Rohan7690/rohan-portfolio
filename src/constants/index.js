@@ -230,7 +230,7 @@ import {
       ],
       image: rohanPortfolio,
       source_code_link: "https://github.com/Rohan7690/rohan-portfolio",
-      live_link:'https://rohan-portfolio-six.vercel.app/',
+      live_link:'https://rohan-portfolio-3d.onrender.com/',
     },
   ];
 
