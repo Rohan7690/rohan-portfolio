@@ -14,14 +14,15 @@ import {
     mongodb,
     git,
     rightlabs,
-    rohanPortfolio,
     bootstrap,
     postmanapi,
     chakara,
     letschat,
-    ghumantu
+    ghumantu,
+    celebal_logo,
+    carepulse,
   } from "../assets";
-// import bootstrap from '../assets';
+
 
   export const navLinks = [
     {
@@ -108,15 +109,29 @@ import {
       name: "python",
       icon: python,
     },
+    
   ];
   
   const experiences = [
+    {
+      title: "Celebal Summer Intern",
+      company_name: "Celebal Technology",
+      icon: celebal_logo,
+      iconBg: "#383E56",
+      date: "June 2024 - July 2024",
+      points: [
+        "Completed intensive coursework on Node.js, focusing on Express and Node modules.",
+        "Developed RESTful APIs, utilizing best practices for database integration and data management.",
+        "Gained practical experience with async/await to handle asynchronous operations efficiently.",
+        "Worked on projects that involved building and managing databases within a Node.js environment.",
+      ],
+    },
     {
       title: "Frontend Developer Intern",
       company_name: "RightLabs",
       icon: rightlabs,
       iconBg: "#383E56",
-      date: "August 2023 - September 2023",
+      date: "July 2023 - August 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,6 +169,32 @@ import {
   ];
   
   const projects = [
+    {
+    name: "Care Pulse",
+    description:
+      "CarePulse is a healthcare-focused application to facilitate appointment scheduling and management.Integrated Twilio for automated SMS notifications, enhancing appointment confirmations and cancellation.",
+    tags: [
+      {
+        name: "NextJs14",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ReactJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: carepulse,
+    source_code_link: "https://github.com/Rohan7690/carePulse",
+    live_link:'https://care-pulse-otss1act6-rohan7690s-projects.vercel.app/',
+  },
     {
       name: "Lets Chat Web App",
       description:
@@ -206,32 +247,7 @@ import {
       source_code_link: "https://github.com/Rohan7690/ghumantu-landing",
       live_link:'https://ghumantu-landing.vercel.app/',
     },
-    {
-      name: "Rohan Portfolio Website",
-      description:
-        "Created my 3d portfolio website using ThreeJS : a powerful 3D graphics library and React Three Fiber : a popular library for creating 3D graphics with ThreeJS in React",
-      tags: [
-        {
-          name: "threejs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "react",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "framer",
-          color: "green-text-gradient",
-        },
-      ],
-      image: rohanPortfolio,
-      source_code_link: "https://github.com/Rohan7690/rohan-portfolio",
-      live_link:'https://rohan-portfolio-3d.onrender.com/',
-    },
+    
   ];
 
   const progress = [
@@ -252,6 +268,14 @@ import {
       number:'80%'
     },
     {
+      name:'Nextjs14',
+      number:'80%'
+    },
+    {
+      name:'Typescript',
+      number:'60%'
+    },
+    {
       name:'Postman API',
       number:'70%'
     },
@@ -266,6 +290,24 @@ import {
     {
       name:'Chakara UI',
       number:'90%'
+    }
+    ,
+    {
+      name:'Shadcn',
+      number:'80%'
+    },
+    {
+      name:'Appwrite',
+      number:'80%'
+    },
+    {
+      name:'mysql',
+      number:'70%'
+    },
+    
+    {
+      name:'Twilio',
+      number:'60%'
     },
     {
       name:'Git/Github',
