@@ -1,175 +1,197 @@
 
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    html,
-    python,
-    css,
-    reactjs,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    rightlabs,
-    bootstrap,
-    postmanapi,
-    chakara,
-    letschat,
-    ghumantu,
-    celebal_logo,
-    carepulse,
-  } from "../assets";
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  html,
+  python,
+  css,
+  reactjs,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  rightlabs,
+  bootstrap,
+  postmanapi,
+  chakara,
+  letschat,
+  ghumantu,
+  celebal_logo,
+  carepulse,
+  typescript,
+  redux,
+} from "../assets";
 
 
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Problem Solver",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
 
-    {
-      name: "Postman Api",
-      icon: postmanapi,
-    },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Chakara UI",
-      icon: chakara,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    
-    {
-      name: "python",
-      icon: python,
-    },
-    
-  ];
-  
-  const experiences = [
-    {
-      title: "Celebal Summer Intern",
-      company_name: "Celebal Technology",
-      icon: celebal_logo,
-      iconBg: "#383E56",
-      date: "June 2024 - July 2024",
-      points: [
-        "Completed intensive coursework on Node.js, focusing on Express and Node modules.",
-        "Developed RESTful APIs, utilizing best practices for database integration and data management.",
-        "Gained practical experience with async/await to handle asynchronous operations efficiently.",
-        "Worked on projects that involved building and managing databases within a Node.js environment.",
-      ],
-    },
-    {
-      title: "Frontend Developer Intern",
-      company_name: "RightLabs",
-      icon: rightlabs,
-      iconBg: "#383E56",
-      date: "July 2023 - August 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    }
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
-  const projects = [
-    {
+const services = [
+  {
+    title: "Web Developer",
+    icon: web,
+  },
+  {
+    title: "React Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Problem Solver",
+    icon: creator,
+  },
+];
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+
+  {
+    name: "Postman Api",
+    icon: postmanapi,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Chakara UI",
+    icon: chakara,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Redux",
+    icon: redux,
+  },
+];
+
+const experiences = [
+  {
+    title: "Full Stack Developer",
+    company_name: "DexKor CRM Pvt. Ltd.",
+    icon: "https://th.bing.com/th/id/OIP.2u9b4vXaEhVDxh4QNBYJVwHaHa?w=170&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    iconBg: "#383E56",
+    date: "Jan 2025 - March 2026",
+    points: [
+      "Implemented advanced filtering, reporting, and data-aggregation modules improving analytics efficiency by 45%",
+      "Developed complex React tables with inline editing, bulk actions, and role-based UI control",
+      "Built and scaled CRM used by 200+ users",
+      "Optimized API performance using indexing, pagination, and aggregation pipelines reducing load time by 30%",
+    ],
+  },
+  {
+    title: "Celebal Summer Intern",
+    company_name: "Celebal Technology",
+    icon: celebal_logo,
+    iconBg: "#383E56",
+    date: "June 2024 - July 2024",
+    points: [
+      "Completed intensive coursework on Node.js, focusing on Express and Node modules.",
+      "Developed RESTful APIs, utilizing best practices for database integration and data management.",
+      "Gained practical experience with async/await to handle asynchronous operations efficiently.",
+      "Worked on projects that involved building and managing databases within a Node.js environment.",
+    ],
+  },
+  {
+    title: "Frontend Developer Intern",
+    company_name: "RightLabs",
+    icon: rightlabs,
+    iconBg: "#383E56",
+    date: "July 2023 - August 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  }
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+];
+
+const projects = [
+  {
     name: "Care Pulse",
     description:
       "CarePulse is a healthcare-focused application to facilitate appointment scheduling and management.Integrated Twilio for automated SMS notifications, enhancing appointment confirmations and cancellation.",
@@ -193,146 +215,146 @@ import {
     ],
     image: carepulse,
     source_code_link: "https://github.com/Rohan7690/carePulse",
-    live_link:'https://care-pulse-otss1act6-rohan7690s-projects.vercel.app/',
+    live_link: 'https://care-pulse-otss1act6-rohan7690s-projects.vercel.app/',
   },
-    {
-      name: "Lets Chat Web App",
-      description:
-        "A Real-time chat web application offering one-on-one and group chat experiences . With user authentication to enhance data security, including user registration and login. Created API which can manage fronted requests and provide data from backend.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "chakara UI",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "express js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Socket.io",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: letschat,
-      source_code_link: "https://github.com/Rohan7690/LetsChat-Deploy",
-      live_link:'https://letschat-bg1b.onrender.com/',
-    },
-    {
-      name: "Ghumantu Website",
-      description:
-        "Developed the website's UI using Chakra UI framework, ensuring an intuitive user experience.Ensured full responsiveness across various devices and screen sizes for broad accessibility.Utilized Git/GitHub for version control, allowing for efficient code management and collaboratio",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "chakara UI",
-          color: "green-text-gradient",
-        },
-        {
-          name: "fade aos",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: ghumantu,
-      source_code_link: "https://github.com/Rohan7690/ghumantu-landing",
-      live_link:'https://ghumantu-landing.vercel.app/',
-    },
-    
-  ];
+  {
+    name: "Lets Chat Web App",
+    description:
+      "A Real-time chat web application offering one-on-one and group chat experiences . With user authentication to enhance data security, including user registration and login. Created API which can manage fronted requests and provide data from backend.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chakara UI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: letschat,
+    source_code_link: "https://github.com/Rohan7690/LetsChat-Deploy",
+    live_link: 'https://letschat-bg1b.onrender.com/',
+  },
+  {
+    name: "Ghumantu Website",
+    description:
+      "Developed the website's UI using Chakra UI framework, ensuring an intuitive user experience.Ensured full responsiveness across various devices and screen sizes for broad accessibility.Utilized Git/GitHub for version control, allowing for efficient code management and collaboratio",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chakara UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "fade aos",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ghumantu,
+    source_code_link: "https://github.com/Rohan7690/ghumantu-landing",
+    live_link: 'https://ghumantu-landing.vercel.app/',
+  },
 
-  const progress = [
-    {
-      name:'HTML',
-      number:'90%'
-    },
-    {
-      name:'CSS',
-      number:'90%'
-    },
-    {
-      name:'JavaScript',
-      number:'80%'
-    },
-    {
-      name:'ReactJS',
-      number:'80%'
-    },
-    {
-      name:'Nextjs14',
-      number:'80%'
-    },
-    {
-      name:'Typescript',
-      number:'60%'
-    },
-    {
-      name:'Postman API',
-      number:'70%'
-    },
-    {
-      name:'Tailwind Css',
-      number:'80%'
-    },
-    {
-      name:'Bootstrap',
-      number:'90%'
-    },
-    {
-      name:'Chakara UI',
-      number:'90%'
-    }
-    ,
-    {
-      name:'Shadcn',
-      number:'80%'
-    },
-    {
-      name:'Appwrite',
-      number:'80%'
-    },
-    {
-      name:'mysql',
-      number:'70%'
-    },
-    
-    {
-      name:'Twilio',
-      number:'60%'
-    },
-    {
-      name:'Git/Github',
-      number:'80%'
-    },
-    {
-      name:'NodeJs',
-      number:'70%'
-    },
-    {
-      name:'ExpressJs',
-      number:'70%'
-    },
-    {
-      name:'MongoDB',
-      number:'80%'
-    },
-    {
-      name:'Python',
-      number:'60%'
-    },
-    {
-      name:'C++',
-      number:'80%'
-    }
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects,progress };
+];
+
+const progress = [
+  {
+    name: 'HTML',
+    number: '90%'
+  },
+  {
+    name: 'CSS',
+    number: '90%'
+  },
+  {
+    name: 'JavaScript',
+    number: '90%'
+  },
+  {
+    name: 'ReactJS',
+    number: '90%'
+  },
+  {
+    name: 'Nextjs14',
+    number: '90%'
+  },
+  {
+    name: 'Typescript',
+    number: '90%'
+  },
+  {
+    name: 'Postman API',
+    number: '90%'
+  },
+  {
+    name: 'Tailwind Css',
+    number: '90%'
+  },
+  {
+    name: 'Bootstrap',
+    number: '90%'
+  },
+  {
+    name: 'Chakara UI',
+    number: '90%'
+  }
+  ,
+  {
+    name: 'Shadcn',
+    number: '80%'
+  },
+  {
+    name: 'Appwrite',
+    number: '80%'
+  },
+  {
+    name: 'mysql',
+    number: '90%'
+  },
+
+  {
+    name: 'Twilio',
+    number: '90%'
+  },
+  {
+    name: 'Git/Github',
+    number: '90%'
+  },
+  {
+    name: 'NodeJs',
+    number: '90%'
+  },
+  {
+    name: 'ExpressJs',
+    number: '90%'
+  },
+  {
+    name: 'MongoDB',
+    number: '90%'
+  },
+  {
+    name: 'Python',
+    number: '90%'
+  },
+  {
+    name: 'C++',
+    number: '90%'
+  }
+];
+
+export { services, technologies, experiences, testimonials, projects, progress };
